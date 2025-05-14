@@ -1,6 +1,6 @@
 {
   "name": "logseq-related-notes",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Find related notes",
   "author": "braladin",
   "main": "dist/index.html",
