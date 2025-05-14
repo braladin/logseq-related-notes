@@ -4,9 +4,17 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@types/bun": "latest",
+    "czg": "^1.11.1",
+    "husky": "^9.1.7"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "cz": "czg"
   }
 }
