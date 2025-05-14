@@ -1,6 +1,9 @@
 {
   "name": "logseq-related-notes",
-  "module": "index.ts",
+  "version": "0.1.0",
+  "description": "Find related notes",
+  "author": "braladin",
+  "main": "dist/index.html",
   "type": "module",
   "private": true,
   "devDependencies": {
@@ -15,6 +18,16 @@
   },
   "scripts": {
     "prepare": "husky",
-    "cz": "czg"
+    "cz": "czg",
+    "build": "bun build src/index.html --outdir ./dist"
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.2.1"
+  },
+  "logseq": {
+    "id": "logseq-related-notes",
+    "title": "Related Notes",
+    "icon": "./icon.png",
+    "description": "Find related notes"
   }
 }
