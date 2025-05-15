@@ -1,5 +1,5 @@
 {
-  "name": "logseq-related-notes",
+  "name": "logseq-similar-notes",
   "version": "0.1.0",
   "description": "Find related notes",
   "author": "braladin",
@@ -25,7 +25,7 @@
     "@logseq/libs": "^0.2.1"
   },
   "logseq": {
-    "id": "logseq-related-notes",
+    "id": "logseq-similar-notes",
     "title": "Related Notes",
     "icon": "./icon.png",
     "description": "Find related notes"

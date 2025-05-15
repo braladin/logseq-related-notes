@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "logseq-related-notes",
+      "name": "logseq-similar-notes",
       "dependencies": {
         "@logseq/libs": "^0.2.1",
       },
